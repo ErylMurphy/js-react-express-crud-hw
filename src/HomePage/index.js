@@ -27,11 +27,10 @@ class HomePage extends Component {
           return <Building
             image={building.image}
             name={building.name}
-            year={building.year_built}
+            year_built={building.year_built}
             city = {building.city}
             architect = {building.architect}
             style = {building.style}
-
           />
         })}
       </div>
