@@ -1,3 +1,5 @@
+CREATE DATABASE buildingdb;
+
 \c buildingdb
 
 DROP TABLE IF EXISTS buildings;
